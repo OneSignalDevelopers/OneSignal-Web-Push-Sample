@@ -25,7 +25,7 @@ This project demonstrates integrating the OneSignal SDK into a website. You can 
 
 ## Ask a question about OneSignal
 
-You can ask questions about the OneSignal xxx SDK and related topics in the **onesignal-xxx-sdk** repository.
+You can ask questions about the OneSignal Website SDK and related topics in the **onesignal-website-sdk** repository.
 
 🙋‍♂️ [Ask a question](https://github.com/OneSignal/OneSignal-Website-SDK/issues/new?assignees=OneSignal%2Feng-developer-sdk&labels=triage&projects=&template=ask-question.yml&title=%5BQuestion%5D%3A+)
 
