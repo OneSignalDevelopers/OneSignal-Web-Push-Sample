@@ -20,6 +20,9 @@ This project demonstrates integrating the OneSignal SDK into a website. You can 
 
 ## 🚦 Getting started
 
+1. Clone this repo
+2. Launch an HTTP server inside the repo directory
+3. Navigate to localhost in your browser
 
 # Support
 
