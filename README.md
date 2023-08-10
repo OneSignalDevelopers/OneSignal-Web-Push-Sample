@@ -16,7 +16,7 @@
 
 OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails.
 
-This project demonstrates integrating the OneSignal SDK into a website. You can use this project as a boilerplate or reference to start your project.
+This project demonstrates integrating the [OneSignal Website SDK](https://github.com/onesignal/onesignal-website-sdk) into a website. You can use this project as a boilerplate or reference to start your project.
 
 ## 🚦 Getting started
 
