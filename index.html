@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Push OneSignal</title>
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-    //Initialize OneSignal 
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-        OneSignal.init({
-            //OneSignal App ID
-            appId: "71bbaea0-8e03-41f1-bbee-7e3d2de3058f",
-        });
-    });
-    </script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneSignal Web Native Sample</title>
+    <script
+      src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
+      defer
+    ></script>
+  </head>
+  <body>
     <h1>Services Workers & Push Notifications</h1>
-</body>
+    <script>
+      //Initialize OneSignal
+      window.OneSignalDeferred = window.OneSignalDeferred || []
+      OneSignalDeferred.push(async function (OneSignal) {
+        await OneSignal.init({ appId: "YOUR APP ID" })
+      })
+    </script>
+  </body>
 </html>
