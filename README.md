@@ -18,6 +18,10 @@ OneSignal makes engaging customers simple and is the fastest, most reliable serv
 
 This project demonstrates integrating the OneSignal SDK into a website. You can use this project as a boilerplate or reference to start your project.
 
+## Requirements
+
+* OneSignal account and project ([Create one](https://documentation.onesignal.com/docs/apps-organizations#create-an-app))
+
 ## 🚦 Getting started
 
 1. Clone this repo
